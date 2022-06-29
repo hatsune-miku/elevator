@@ -1,6 +1,6 @@
 # Elevator Simulation
 
-Student: Zhen Guan (202191382)
+Student Number: 202191382
 
 ## Abbreviations
 

@@ -16,6 +16,8 @@ public class CSFElevatorSimulator {
         int simulationSeconds = 7200;
         int millisecondsPerSecond = 1;
 
+        Logger.setLoggingLevel(Logger.Level.VERBOSE);
+
         SimulationConfig config = SimulationConfig.defaultConfig(
             simulationSeconds, millisecondsPerSecond
         );

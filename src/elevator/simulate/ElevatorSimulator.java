@@ -34,6 +34,9 @@ public final class ElevatorSimulator {
         this.service = new ElevatorService(floors, numElevators, elevatorCapacity, config);
     }
 
+    /**
+     * Run and block until the simulation is complete.
+     */
     public void run() {
         Logger.info(
             "=== Simulation started with elevators=%d, capacity=%d ===",
